@@ -1,0 +1,143 @@
+.carousel {
+  font-family: "Roboto Condensed", sans-serif;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.9375rem;
+  padding: 3rem 0.9375rem 3rem 0.9375rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-image: radial-gradient(gray 5%, transparent 10%);
+  background-size: 1.641rem 1.641rem;
+  background-repeat: repeat;
+}
+
+.carousel-wrapper {
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+  width: 100%;
+  animation: scroll 20s linear infinite;
+}
+
+.carousel-item {
+  width: 14.06rem;
+  height: 11.53rem;
+  border-radius: 0 0 9.375rem 9.375rem;
+  position: relative;
+  overflow: hidden;
+  margin-right: 1rem;
+  display: inline-block;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0 0 9.375rem 9.375rem;
+}
+
+.carousel-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 0 0 9.375rem 9.375rem;
+  pointer-events: none;
+}
+
+.carousel-info {
+  width: 100%;
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-title,
+.carousel-subtitle {
+  font-size: 0.789rem;
+  font-weight: 400;
+  line-height: 1.406rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  margin: 0;
+}
+
+.carousel-month {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.25rem;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  margin: 0.75rem 0 0 0;
+}
+
+.carousel-date {
+  width: 30%;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 3.75rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  margin: 0;
+  border: 0.141rem solid white;
+  border-radius: 0.469rem;
+  padding: 0 0.75rem;
+}
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .carousel {
+    gap: 1.25rem;
+    padding: 4rem 1.25rem 4rem 1.25rem;
+    background-size: 2.1875rem 2.1875rem;
+  }
+
+  .carousel-item {
+    width: 18.75rem;
+    height: 15.375rem;
+    border-radius: 0 0 12.5rem 12.5rem;
+  }
+
+  .carousel-image {
+    border-radius: 0 0 12.5rem 12.5rem;
+  }
+
+  .carousel-overlay {
+    border-radius: 0 0 12.5rem 12.5rem;
+  }
+
+  .carousel-title,
+  .carousel-subtitle {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+  }
+
+  .carousel-month {
+    font-size: 2rem;
+    line-height: 3rem;
+    margin: 1rem 0 0 0;
+  }
+
+  .carousel-date {
+    font-size: 3rem;
+    line-height: 5rem;
+    border: 0.1875rem solid white;
+    border-radius: 0.625rem;
+    padding: 0 1rem;
+  }
+}

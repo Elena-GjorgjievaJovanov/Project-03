@@ -1,0 +1,186 @@
+.events-page-calendar-section {
+  padding: 10.5rem 6rem 0 6rem;
+  margin-bottom: 6rem;
+}
+
+.events-page-calendar-section-inner {
+  display: flex;
+}
+
+.events-page-calendar-section-left {
+  flex-basis: 40%;
+  margin-right: 4.5rem;
+}
+
+.events-page-calendar-section-left a {
+  text-decoration: none;
+}
+
+.events-page-calendar-section-left h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.8125rem;
+  font-weight: 600;
+  line-height: 3.375rem;
+  letter-spacing: -0.02325rem;
+  color: rgba(15, 41, 74, 1);
+}
+
+.events-page-calendar-section-left p {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.219rem;
+  letter-spacing: 0.0165rem;
+  color: rgba(33, 56, 62, 1);
+}
+
+.events-page-calendar-section-right {
+  background: rgba(255, 255, 255, 1);
+  border: 0.047rem solid rgba(26, 26, 26, 0.1);
+  flex-basis: 60%;
+  box-shadow: 0 0.1875rem 0.281rem -0.094rem rgba(16, 24, 40, 0.03);
+  box-shadow: 0 0.5625rem 0.75rem -0.1875rem rgba(16, 24, 40, 0.08);
+}
+
+.events-page-calendar-section-filters {
+  display: flex;
+  margin-top: 7.5rem;
+}
+
+.events-page-calendar-section-filters p {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.219rem;
+  letter-spacing: 0.0165rem;
+  color: rgba(33, 56, 62, 1);
+  text-align: center;
+  border-bottom: 0.047rem solid rgba(189, 189, 189, 1);
+  padding: 0.516rem 1.36rem 0.516rem 1.36rem;
+  margin-right: 0.75rem;
+  border-radius: 2.344rem;
+  border: 0 0 0.047rem 0;
+}
+
+.events-page-calendar-section-filters-h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.8125rem;
+  font-weight: 600;
+  line-height: 3.375rem;
+  letter-spacing: -0.02325rem;
+  color: rgba(15, 41, 74, 1);
+  margin-bottom: 2.25rem;
+}
+
+.events-page-calendar-section-filters p.active {
+  background-color: rgba(232, 123, 34, 1);
+  color: white;
+  cursor: pointer;
+}
+
+.events-category-section.hidden {
+  display: none;
+}
+
+.events-category-section.visible {
+  display: block;
+}
+
+.events-page-search {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0.75rem;
+}
+
+.search-input {
+  padding: 0.375rem;
+  border-radius: 0.1875rem;
+  border: 0.047rem solid #ddd;
+  box-shadow: 0 1.406rem 3.75rem 0 rgba(47, 65, 88, 0.2);
+  width: 24rem;
+  border-radius: 93.75rem;
+  padding: 1.125rem;
+}
+
+.search-input::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.219rem;
+  letter-spacing: 0.0165rem;
+  color: rgba(33, 56, 62, 0.3);
+}
+
+.filter-all-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 1920px) {
+  .events-page-calendar-section {
+    padding: 14rem 8rem 0 8rem;
+    margin-bottom: 8rem;
+  }
+  .events-page-calendar-section-left {
+    margin-right: 6rem;
+  }
+
+  .events-page-calendar-section-left h1 {
+    font-size: 3.75rem;
+    line-height: 4.5rem;
+    letter-spacing: -0.031rem;
+  }
+
+  .events-page-calendar-section-left p {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    letter-spacing: 0.022rem;
+  }
+
+  .events-page-calendar-section-right::before {
+    width: 0.063rem;
+  }
+
+  .events-page-calendar-section-filters {
+    margin-top: 10rem;
+  }
+
+  .events-page-calendar-section-filters p {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    letter-spacing: 0.022rem;
+    border-bottom: 0.063rem solid rgba(189, 189, 189, 1);
+    padding: 0.688rem 1.813rem 0.688rem 1.813rem;
+    margin-right: 1rem;
+    border-radius: 3.125rem;
+    border: 0 0 0.063rem 0;
+  }
+
+  .events-page-calendar-section-filters-h1 {
+    font-size: 3.75rem;
+    line-height: 4.5rem;
+    letter-spacing: -0.031rem;
+    margin-bottom: 3rem;
+  }
+
+  .events-page-search {
+    margin-bottom: 1rem;
+  }
+
+  .search-input {
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 0.063rem solid #ddd;
+    box-shadow: 0 1.875rem 5rem 0 rgba(47, 65, 88, 0.2);
+    width: 32rem;
+    border-radius: 125rem;
+    padding: 1.5rem;
+  }
+
+  .search-input::placeholder {
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+    letter-spacing: 0.022rem;
+  }
+}

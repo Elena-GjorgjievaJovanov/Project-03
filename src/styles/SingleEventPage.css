@@ -1,0 +1,371 @@
+.single-event-page {
+  padding: 6rem 6rem 3rem 6rem;
+}
+
+.single-event-page h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.8125rem;
+  font-weight: 600;
+  line-height: 3.375rem;
+  letter-spacing: -0.02325rem;
+  color: rgba(15, 41, 74, 1);
+}
+
+.single-event-page h2 {
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.344rem;
+  font-weight: 500;
+  line-height: 2.906rem;
+  letter-spacing: -0.02325rem;
+  color: rgba(15, 41, 74, 1);
+  margin-bottom: 4.5rem;
+}
+
+.single-event-page-description {
+  display: flex;
+  margin-bottom: 6rem;
+}
+
+.single-event-page-description-left {
+  margin-right: 15rem;
+}
+
+.single-event-page-description-left h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.344rem;
+  font-weight: 500;
+  line-height: 2.906rem;
+  color: rgba(15, 41, 74, 1);
+}
+
+.single-event-page-description p {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.219rem;
+  letter-spacing: 0.0165rem;
+  color: rgba(33, 56, 62, 1);
+}
+
+.event-details {
+  margin-bottom: 9rem;
+}
+
+.event-details-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.event-details-inner-left {
+  width: 75%;
+}
+
+.event-details-inner-right {
+  width: 15%;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-image: radial-gradient(gray 5%, transparent 10%);
+  background-size: 1.641rem 1.641rem;
+  background-repeat: repeat;
+}
+
+.event-details h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.344rem;
+  font-weight: 500;
+  line-height: 2.906rem;
+  letter-spacing: -0.02325rem;
+  color: rgba(15, 41, 74, 1);
+}
+
+.event-day {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.02325rem;
+  color: orange;
+}
+
+.event-details-by-hour {
+  display: flex;
+  margin-bottom: 2.25rem;
+}
+
+.event-details-by-hour > p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2.906rem;
+  letter-spacing: -0.02325rem;
+  color: rgba(33, 56, 62, 1);
+  margin: 0 2.25rem 0 0;
+}
+
+.event-details-by-hour-info p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2.906rem;
+  letter-spacing: -0.02325rem;
+  color: rgba(33, 56, 62, 1);
+  margin: 0;
+  border-left: 0.141rem solid rgba(232, 123, 34, 1);
+  padding-left: 0.75rem;
+}
+
+.event-details-by-hour-info ul {
+  margin: 0;
+}
+
+.event-details-by-hour-info li {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2.906rem;
+  letter-spacing: -0.02325rem;
+}
+
+.event-details-by-hour-info span {
+  color: rgba(232, 123, 34, 1);
+}
+
+hr {
+  border: 0.047 solid rgba(232, 123, 34, 1);
+  margin-bottom: 2.25rem;
+}
+
+.event-speakers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.event-speakers-left {
+  margin-right: 1.5rem;
+}
+
+.event-speakers-left,
+.event-speakers-right {
+  flex-basis: 50%;
+}
+
+.event-speakers-left p {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.344rem;
+  font-weight: 500;
+  line-height: 2.906rem;
+  letter-spacing: -0.02325rem;
+  color: rgba(15, 41, 74, 1);
+  margin: 0 0 2.25rem 0;
+}
+
+.event-speakers-left-dots {
+  background-color: rgba(255, 255, 255, 0.8);
+  background-image: radial-gradient(gray 5%, transparent 10%);
+  background-size: 1.641rem 1.641rem;
+  background-repeat: repeat;
+  height: 14.0625rem;
+}
+
+.events-prices {
+  display: flex;
+  justify-content: center;
+  padding: 0 6rem;
+}
+
+.events-prices p {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.8125rem;
+  font-weight: 600;
+  line-height: 3.375rem;
+  letter-spacing: -0.02325rem;
+  color: rgba(15, 41, 74, 1);
+  text-align: center;
+}
+
+.individual-price,
+.company-price {
+  padding: 3rem;
+}
+
+.single-event-banner {
+  position: relative;
+  margin-bottom: 9rem;
+}
+
+.single-event-banner img {
+  height: 25.84rem;
+  width: 100%;
+  border-radius: 93.75rem;
+  object-fit: cover;
+}
+
+.single-event-banner button {
+  background: rgba(232, 123, 34, 1);
+  box-shadow: 0 0.1875rem 0.281rem -0.0938rem rgba(16, 24, 40, 0.03);
+  box-shadow: 0 0.5625rem 0.75rem -0.1875rem rgba(16, 24, 40, 0.08);
+  color: rgba(255, 255, 255, 1);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.219rem;
+  font-weight: 600;
+  line-height: 2.156rem;
+  letter-spacing: -0.002325rem;
+  border-radius: 2.344rem;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -1.641rem;
+}
+
+.single-event-banner-link {
+  position: absolute;
+  left: 45.7035rem;
+  transform: translateX(-50%);
+  top: 6.094rem;
+}
+
+@media screen and (min-width: 1920px) {
+  .single-event-page {
+    padding: 8rem 8rem 4rem 8rem;
+  }
+
+  .single-event-page h1 {
+    font-size: 3.75rem;
+    line-height: 4.5rem;
+    letter-spacing: -0.031rem;
+  }
+
+  .single-event-page h2 {
+    text-transform: uppercase;
+    font-size: 3.125rem;
+    line-height: 3.875rem;
+    letter-spacing: -0.031rem;
+    margin-bottom: 6rem;
+  }
+
+  .single-event-page-description {
+    margin-bottom: 8rem;
+  }
+
+  .single-event-page-description-left {
+    margin-right: 20rem;
+  }
+
+  .single-event-page-description-left h3 {
+    font-size: 3.125rem;
+    line-height: 3.875rem;
+    letter-spacing: -0.031rem;
+  }
+
+  .single-event-page-description p {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    letter-spacing: 0.022rem;
+  }
+
+  .event-details {
+    margin-bottom: 12rem;
+  }
+
+  .event-details-inner-right {
+    background-size: 2.1875rem 2.1875rem;
+  }
+
+  .event-details h3 {
+    font-size: 3.125rem;
+    line-height: 3.875rem;
+    letter-spacing: -0.031rem;
+  }
+
+  .event-day {
+    font-weight: 500;
+    letter-spacing: -0.031rem;
+  }
+
+  .event-details-by-hour {
+    margin-bottom: 3rem;
+  }
+
+  .event-details-by-hour > p {
+    font-size: 2rem;
+    line-height: 3.875rem;
+    letter-spacing: -0.031rem;
+    margin: 0 3rem 0 0;
+  }
+
+  .event-details-by-hour-info p {
+    font-size: 2rem;
+    line-height: 3.875rem;
+    letter-spacing: -0.031rem;
+    border-left: 0.188rem solid rgba(232, 123, 34, 1);
+    padding-left: 1rem;
+  }
+
+  .event-details-by-hour-info li {
+    font-size: 2rem;
+    line-height: 3.875rem;
+    letter-spacing: -0.031rem;
+  }
+
+  hr {
+    border: 0.063rem solid rgba(232, 123, 34, 1);
+    margin-bottom: 3rem;
+  }
+
+  .event-speakers-left {
+    margin-right: 2rem;
+  }
+
+  .event-speakers-left p {
+    font-size: 3.125rem;
+    line-height: 3.875rem;
+    letter-spacing: -0.031rem;
+    margin: 0 0 3rem 0;
+  }
+
+  .event-speakers-left-dots {
+    background-size: 2.1875rem 2.1875rem;
+    height: 18.75rem;
+  }
+
+  .events-prices {
+    padding: 0 8rem;
+  }
+
+  .events-prices p {
+    font-size: 3.75rem;
+    line-height: 4.5rem;
+    letter-spacing: -0.031rem;
+  }
+
+  .individual-price,
+  .company-price {
+    padding: 4rem;
+  }
+
+  .single-event-banner {
+    margin-bottom: 12rem;
+  }
+
+  .single-event-banner img {
+    height: 34.453rem;
+    border-radius: 125rem;
+  }
+
+  .single-event-banner button {
+    box-shadow: 0 0.25rem 0.375rem -0.125rem rgba(16, 24, 40, 0.03);
+    box-shadow: 0 0.75rem 1rem -0.25rem rgba(16, 24, 40, 0.08);
+    font-size: 1.625rem;
+    line-height: 2.875rem;
+    letter-spacing: -0.031rem;
+    border-radius: 3.125rem;
+    padding: 1rem 2rem;
+    bottom: -2.188rem;
+  }
+
+  .single-event-banner-link {
+    left: 60.938rem;
+    transform: translateX(-50%);
+    top: 8.125rem;
+  }
+}

@@ -1,0 +1,326 @@
+.big-event-home-main {
+  position: relative;
+}
+.big-event-home {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 10.5rem 6rem;
+  position: relative;
+  align-items: center;
+}
+
+.big-event-home-info {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+.big-event-home-info h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.344rem;
+  font-weight: 500;
+  line-height: 2.906rem;
+  letter-spacing: -0.02325rem;
+  color: rgba(15, 41, 74, 1);
+  margin-bottom: 2.25rem;
+}
+
+.big-event-home-info-p {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.656rem;
+  font-weight: 400;
+  line-height: 1.219rem;
+  letter-spacing: 0.0165rem;
+  color: rgba(33, 56, 62, 1);
+  margin-bottom: 3.75rem;
+}
+
+.big-event-home-president {
+  display: flex;
+  align-items: center;
+}
+
+.big-event-home-president img {
+  width: 3.101rem;
+  height: 3.101rem;
+  border-radius: 50%;
+  margin-right: 1.125rem;
+}
+
+.big-event-home-president-info p:first-of-type {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.609rem;
+  font-weight: 500;
+  line-height: 0.609rem;
+  letter-spacing: 0.01425rem;
+  color: rgba(15, 41, 74, 1);
+}
+
+.big-event-home-president-info p:last-of-type {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.5625rem;
+  font-weight: 400;
+  line-height: 0.5625rem;
+  letter-spacing: 0.0234rem;
+  color: rgba(44, 58, 75, 0.5);
+}
+
+.big-event-home-imgs {
+  position: relative;
+}
+
+.big-event-home-imgs .circle {
+  width: 14.664rem;
+  height: 14.664rem;
+  border-radius: 50%;
+  border: 0.023rem solid rgba(60, 99, 106, 1);
+  position: absolute;
+  left: -5.859rem;
+  z-index: 2;
+}
+
+.big-event-home-imgs .circle img {
+  width: 7.651rem;
+  height: 7.651rem;
+  object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 5;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotateY(180deg);
+  object-position: right center;
+}
+
+.big-event-home-imgs .big-img {
+  width: 25.84rem;
+  height: 41.984rem;
+  right: 0;
+  border-radius: 12.656rem;
+  object-fit: cover;
+  position: relative;
+  margin-right: 5.25rem;
+}
+
+.buy-card-home-div {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 0.75rem;
+  z-index: 555;
+  box-shadow: 0 1.406rem 3.75rem 0 rgba(47, 65, 88, 0.2);
+  width: fit-content;
+  border-radius: 1.054rem;
+  border-radius: 3.047rem;
+  position: absolute;
+  right: 0;
+  bottom: 3.75rem;
+}
+
+.buy-card-home-div-sign {
+  font-size: 1.725rem;
+  color: white;
+  background-color: rgba(232, 123, 34, 1);
+  border-radius: 50%;
+  padding: 0.75rem;
+  margin-right: 0.75rem;
+}
+
+.buy-card-home-div-text {
+  margin-right: 2.25rem;
+}
+
+.buy-card-home-div-text p:first-of-type {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 0.609rem;
+  letter-spacing: 0.01425rem;
+  color: rgba(15, 41, 74, 1);
+}
+
+.buy-card-home-div-text p:last-of-type {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.5625rem;
+  font-weight: 400;
+  line-height: 0.5625rem;
+  letter-spacing: 0.02325rem;
+  color: rgba(33, 56, 62, 0.5);
+}
+
+.big-event-dots-div {
+  background-color: rgba(255, 255, 255, 0.8);
+  background-image: radial-gradient(gray 5%, transparent 10%);
+  background-size: 1.641rem 1.641rem;
+  background-repeat: repeat;
+  z-index: -9999;
+  width: 100%;
+  height: 18.481rem;
+  position: absolute;
+  left: 0;
+  top: 41.4375rem;
+}
+
+.big-event-blank-div1 {
+  background-color: white;
+  width: 100%;
+  position: absolute;
+  height: 12.281rem;
+  z-index: -10;
+  top: 41.25rem;
+  left: 4.75rem;
+}
+
+.big-event-blank-div2 {
+  background-color: white;
+  width: 100%;
+  position: absolute;
+  height: 2.484rem;
+  z-index: -10;
+  top: 52.594rem;
+  left: 36.047rem;
+}
+
+.big-event-blank-div3 {
+  background-color: white;
+  width: 100%;
+  position: absolute;
+  height: 4.219rem;
+  z-index: -10;
+  top: 53.906rem;
+  left: 37rem;
+}
+
+.big-event-blank-div4 {
+  background-color: white;
+  width: 100%;
+  position: absolute;
+  height: 2.578rem;
+  z-index: -10;
+  top: 56.4375rem;
+  left: 39.4375rem;
+}
+
+@media screen and (min-width: 1920px) {
+  .big-event-home {
+    padding: 14rem 8rem;
+  }
+
+  .big-event-home-info h1 {
+    font-size: 3.125rem;
+    line-height: 3.875rem;
+    letter-spacing: -0.031rem;
+    margin-bottom: 3rem;
+  }
+
+  .big-event-home-info-p {
+    font-size: 0.875rem;
+    line-height: 1.625rem;
+    letter-spacing: 0.022rem;
+    margin-bottom: 5rem;
+  }
+
+  .big-event-home-president img {
+    width: 4.134rem;
+    height: 4.134rem;
+    margin-right: 1.5rem;
+  }
+
+  .big-event-home-president-info p:first-of-type {
+    font-size: 0.813rem;
+    line-height: 0.813rem;
+    letter-spacing: 0.019rem;
+  }
+
+  .big-event-home-president-info p:last-of-type {
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+    letter-spacing: 0.031rem;
+  }
+
+  .big-event-home-imgs .circle {
+    width: 19.552rem;
+    height: 19.552rem;
+    border-radius: 50%;
+    border: 0.031rem solid rgba(60, 99, 106, 1);
+    left: -7.813rem;
+  }
+
+  .big-event-home-imgs .circle img {
+    width: 10.201rem;
+    height: 10.201rem;
+  }
+
+  .big-event-home-imgs .big-img {
+    width: 34.453rem;
+    height: 55.979rem;
+    right: 0;
+    border-radius: 16.875rem;
+    margin-right: 7rem;
+  }
+
+  .buy-card-home-div {
+    padding: 1rem;
+    z-index: 555;
+    box-shadow: 0 1.875rem 5rem 0 rgba(47, 65, 88, 0.2);
+    border-radius: 1.875rem;
+    border-radius: 4.063rem;
+    right: 0;
+    bottom: 5rem;
+  }
+
+  .buy-card-home-div-sign {
+    font-size: 2.3rem;
+    padding: 1rem;
+    margin-right: 1rem;
+  }
+
+  .buy-card-home-div-text {
+    margin-right: 3rem;
+  }
+
+  .buy-card-home-div-text p:first-of-type {
+    font-size: 1rem;
+    line-height: 0.813rem;
+    letter-spacing: 0.019rem;
+  }
+
+  .buy-card-home-div-text p:last-of-type {
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+    letter-spacing: 0.031rem;
+  }
+
+  .big-event-dots-div {
+    background-color: rgba(255, 255, 255, 0.8);
+    background-size: 2.1875rem 2.1875rem;
+    height: 24.641rem;
+    left: 0;
+    top: 55.25rem;
+  }
+
+  .big-event-blank-div1 {
+    height: 16.375rem;
+    top: 55rem;
+    left: 5rem;
+  }
+
+  .big-event-blank-div2 {
+    height: 3.313rem;
+    top: 70.125rem;
+    left: 49.75rem;
+  }
+
+  .big-event-blank-div3 {
+    height: 5.625rem;
+    top: 71.875rem;
+    left: 52rem;
+  }
+
+  .big-event-blank-div4 {
+    height: 3.438rem;
+    top: 75.25rem;
+    left: 54rem;
+  }
+}

@@ -1,0 +1,32 @@
+.not-found-container {
+  text-align: center;
+  padding: 3.125rem;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.not-found-header {
+  font-size: 5rem;
+  margin: 0;
+  color: #333;
+}
+
+.not-found-message {
+  font-size: 1.5rem;
+  color: #666;
+}
+
+.not-found-link {
+  display: inline-block;
+  margin-top: 1.25rem;
+  font-size: 1rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.not-found-link:hover {
+  text-decoration: underline;
+}

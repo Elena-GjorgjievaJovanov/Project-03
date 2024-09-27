@@ -1,0 +1,505 @@
+.sign-up-page {
+  max-width: 100%;
+  padding: 12rem 6rem 2.25rem 6rem;
+  overflow: hidden;
+  margin-top: 3rem;
+}
+
+.sign-up-page-inner {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sign-up-page-inner h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.344rem;
+  font-weight: 500;
+  line-height: 2.906rem;
+  letter-spacing: -0.02325rem;
+  text-align: center;
+  color: rgba(15, 41, 74, 1);
+}
+
+.sign-up-page-inner .btn-google {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2.156rem;
+  letter-spacing: -0.02325rem;
+  text-align: center;
+  padding: 0.75rem;
+  margin-bottom: 2.25rem;
+  color: rgba(15, 41, 74, 1);
+  border: 0.09375rem solid rgba(33, 56, 62, 0.2);
+  border-radius: 2.344rem;
+  box-shadow: 0 0.1875rem 0.2813rem -0.09375rem rgba(16, 24, 40, 0.03);
+  box-shadow: 0 0.5625rem 0.75rem -0.1875rem rgba(16, 24, 40, 0.08);
+  background-color: transparent;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.sign-up-page-inner .btn-google img {
+  width: 2.25rem;
+  margin-right: 1.5rem;
+}
+
+.sign-up-page-inner .line-elements {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.25rem;
+}
+
+.sign-up-page-inner .line {
+  width: 45%;
+  height: 0.0473rem;
+  background-color: rgba(33, 56, 62, 0.2);
+}
+
+.sign-up-page-inner .line-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  line-height: 1.219rem;
+  letter-spacing: 0.0165rem;
+  color: rgba(33, 56, 62, 1);
+}
+
+.sign-up-page-inner .email-elements {
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-up-page-inner .email-elements label {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.219rem;
+  letter-spacing: 0.0165rem;
+  color: rgba(33, 56, 62, 1);
+}
+
+.sign-up-page-inner .email-elements input {
+  border: 0.09375rem solid rgba(33, 56, 62, 0.2);
+  border-radius: 2.344rem;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.sign-up-page-inner .email-elements input::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.156rem;
+  letter-spacing: -0.02325rem;
+  color: rgba(39, 50, 64, 0.3);
+}
+
+.sign-up-page-inner .btn-continue-email {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2.156rem;
+  letter-spacing: -0.02325rem;
+  color: rgba(255, 255, 255, 1);
+  border: none;
+  background: rgba(232, 123, 34, 1);
+  box-shadow: 0 0.1875rem 0.2813rem -0.09375rem rgba(16, 24, 40, 0.03);
+  box-shadow: 0 0.5625rem 0.75rem -0.1875rem rgba(16, 24, 40, 0.08);
+  border-radius: 2.344rem;
+  padding: 1.125rem;
+  margin-bottom: 2.25rem;
+}
+
+.sign-up-page-inner .email-rules {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.219rem;
+  letter-spacing: 0.165rem;
+  color: rgba(33, 56, 62, 1);
+  margin-bottom: 1.5rem;
+}
+
+.sign-up-page-inner .email-rules span {
+  text-decoration: underline;
+}
+
+.sign-up-page-inner .checkbox {
+  margin-bottom: 0.75rem;
+}
+
+.sign-up-page-inner .checkbox input {
+  border: 0.09375rem solid rgba(33, 56, 62, 0.3);
+  border-radius: 0.141rem;
+  margin-right: 0.125rem;
+}
+
+.sign-up-page-inner .checkbox label {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 0.797rem;
+  letter-spacing: 0.0165rem;
+  color: rgba(33, 56, 62, 1);
+}
+
+.sign-un-page-benefits {
+  position: relative;
+}
+
+.sign-un-page-benefits .dots-div1,
+.sign-un-page-benefits .dots-div2,
+.sign-un-page-benefits .dots-div3,
+.sign-un-page-benefits .dots-div4,
+.sign-un-page-benefits .dots-div5,
+.sign-un-page-benefits .dots-div6,
+.sign-un-page-benefits .dots-div7,
+.sign-un-page-benefits .dots-div8,
+.sign-un-page-benefits .dots-div9 {
+  background-color: rgba(255, 255, 255, 0.8);
+  background-image: radial-gradient(gray 5%, transparent 10%);
+  background-size: 1.641rem 1.641rem;
+  background-repeat: repeat;
+  z-index: -9999;
+  position: absolute;
+}
+
+.sign-un-page-benefits .dots-div1,
+.sign-un-page-benefits .dots-div2,
+.sign-un-page-benefits .dots-div3,
+.sign-un-page-benefits .dots-div4 {
+  left: -10.781rem;
+}
+
+.sign-un-page-benefits .dots-div1 {
+  width: 23%;
+  height: 1.125rem;
+  top: -4.6875rem;
+}
+
+.sign-un-page-benefits .dots-div2 {
+  width: 20%;
+  height: 3rem;
+  top: -2.9535rem;
+}
+
+.sign-un-page-benefits .dots-div3 {
+  width: 18%;
+  height: 3rem;
+  top: 0.141em;
+}
+
+.sign-un-page-benefits .dots-div4 {
+  width: 16%;
+  height: 3rem;
+  top: 3.235rem;
+}
+
+.sign-un-page-benefits .dots-div5 {
+  width: 16%;
+  height: 3rem;
+  bottom: 2.8125rem;
+  right: -10.781rem;
+}
+
+.sign-un-page-benefits .dots-div6 {
+  width: 18%;
+  height: 3rem;
+  bottom: -0.5625rem;
+  right: -10.781rem;
+}
+
+.sign-un-page-benefits .dots-div7 {
+  width: 20%;
+  height: 3rem;
+  bottom: -3.9375rem;
+  right: -10.781rem;
+}
+
+.sign-un-page-benefits .dots-div8 {
+  width: 22%;
+  height: 1.5rem;
+  bottom: -6rem;
+  right: -10.781rem;
+}
+
+.sign-un-page-benefits .dots-div9 {
+  width: 15.141rem;
+  height: 16.796rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sign-un-page-benefits-inner {
+  margin: 10.5rem 0;
+}
+
+.sign-un-page-benefits-row1,
+.sign-un-page-benefits-row2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.25rem;
+}
+
+.sign-un-page-benefits-row1 img {
+  border-radius: 23.438rem 23.438rem 0 0;
+}
+
+.sign-un-page-benefits-row1 img,
+.sign-un-page-benefits-row2 img {
+  width: 45%;
+  height: 18.891rem;
+  object-fit: cover;
+}
+
+.sign-un-page-benefits-row2 img {
+  border-radius: 0 0 23.438rem 23.438rem;
+}
+
+.sign-un-page-benefits-row1-info,
+.sign-un-page-benefits-row2-info {
+  width: 35%;
+}
+
+.sign-un-page-benefits-row1-info h1,
+.sign-un-page-benefits-row2-info h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.344rem;
+  font-weight: 500;
+  line-height: 2.906rem;
+  letter-spacing: -0.02325rem;
+  color: rgba(15, 41, 74, 1);
+  margin-bottom: 3rem;
+}
+
+.sign-un-page-benefits-row2-info ul {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.219rem;
+  letter-spacing: 0.0165rem;
+  color: rgba(33, 56, 62, 1);
+}
+
+@media screen and (min-width: 1920px) {
+  .sign-up-page {
+    padding: 16rem 8rem 3rem 8rem;
+    margin-top: 4rem;
+  }
+
+  .sign-up-page-inner h1 {
+    font-size: 3.125rem;
+    line-height: 3.875rem;
+    letter-spacing: -0.031rem;
+  }
+
+  .sign-up-page-inner .btn-google {
+    font-size: 2rem;
+    line-height: 2.875rem;
+    letter-spacing: -0.031rem;
+    padding: 1rem;
+    margin-bottom: 3rem;
+    border: 0.125rem solid rgba(33, 56, 62, 0.2);
+    border-radius: 3.125rem;
+    box-shadow: 0 0.25rem 0.375rem -0.125rem rgba(16, 24, 40, 0.03);
+    box-shadow: 0 0.75rem 1rem -0.25rem rgba(16, 24, 40, 0.08);
+  }
+
+  .sign-up-page-inner .btn-google img {
+    width: 3rem;
+    margin-right: 2rem;
+  }
+
+  .sign-up-page-inner .line-elements {
+    margin-bottom: 3rem;
+  }
+
+  .sign-up-page-inner .line {
+    width: 45%;
+    height: 0.063rem;
+  }
+
+  .sign-up-page-inner .line-text {
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+    letter-spacing: 0.022rem;
+  }
+
+  .sign-up-page-inner .email-elements label {
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+    letter-spacing: 0.022rem;
+  }
+
+  .sign-up-page-inner .email-elements input {
+    border: 0.125rem solid rgba(33, 56, 62, 0.2);
+    border-radius: 3.125rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .sign-up-page-inner .email-elements input::placeholder {
+    font-size: 2rem;
+    line-height: 2.875rem;
+    letter-spacing: -0.031rem;
+  }
+
+  .sign-up-page-inner .btn-continue-email {
+    font-size: 2rem;
+    line-height: 2.875rem;
+    letter-spacing: -0.031rem;
+    box-shadow: 0 0.25rem 0.375rem -0.125rem rgba(16, 24, 40, 0.03);
+    box-shadow: 0 0.75rem 1rem -0.25rem rgba(16, 24, 40, 0.08);
+    border-radius: 3.125rem;
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .sign-up-page-inner .email-rules {
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+    letter-spacing: 0.022rem;
+    margin-bottom: 2rem;
+  }
+
+  .sign-up-page-inner .checkbox {
+    margin-bottom: 1rem;
+  }
+
+  .sign-up-page-inner .checkbox input {
+    border: 0.125rem solid rgba(33, 56, 62, 0.3);
+    border-radius: 0.188rem;
+    margin-right: 0.5rem;
+  }
+
+  .sign-up-page-inner .checkbox label {
+    font-size: 1.25rem;
+    line-height: 1.063rem;
+    letter-spacing: 0.022rem;
+  }
+
+  .sign-un-page-benefits .dots-div1,
+  .sign-un-page-benefits .dots-div2,
+  .sign-un-page-benefits .dots-div3,
+  .sign-un-page-benefits .dots-div4,
+  .sign-un-page-benefits .dots-div5,
+  .sign-un-page-benefits .dots-div6,
+  .sign-un-page-benefits .dots-div7,
+  .sign-un-page-benefits .dots-div8,
+  .sign-un-page-benefits .dots-div9 {
+    background-size: 2.1875rem 2.1875rem;
+  }
+
+  .sign-un-page-benefits .dots-div1,
+  .sign-un-page-benefits .dots-div2,
+  .sign-un-page-benefits .dots-div3,
+  .sign-un-page-benefits .dots-div4 {
+    left: -14.375rem;
+  }
+
+  .sign-un-page-benefits .dots-div1 {
+    width: 23%;
+    height: 1.5rem;
+    top: -6.25rem;
+  }
+
+  .sign-un-page-benefits .dots-div2 {
+    width: 20%;
+    height: 4rem;
+    top: -3.938rem;
+  }
+
+  .sign-un-page-benefits .dots-div3 {
+    width: 18%;
+    height: 4rem;
+    top: 0.188rem;
+  }
+
+  .sign-un-page-benefits .dots-div4 {
+    width: 16%;
+    height: 4rem;
+    top: 4.313rem;
+  }
+
+  .sign-un-page-benefits .dots-div5 {
+    width: 16%;
+    height: 4rem;
+    bottom: 3.75rem;
+    right: -14.375rem;
+  }
+
+  .sign-un-page-benefits .dots-div6 {
+    width: 18%;
+    height: 4rem;
+    bottom: -0.75rem;
+    right: -14.375rem;
+  }
+
+  .sign-un-page-benefits .dots-div7 {
+    width: 20%;
+    height: 4rem;
+    bottom: -5.25rem;
+    right: -14.375rem;
+  }
+
+  .sign-un-page-benefits .dots-div8 {
+    width: 22%;
+    height: 1.5rem;
+    bottom: -7.25rem;
+    right: -14.375rem;
+  }
+
+  .sign-un-page-benefits .dots-div9 {
+    width: 20.188rem;
+    height: 22.394rem;
+  }
+
+  .sign-un-page-benefits-inner {
+    margin: 14rem 0;
+  }
+
+  .sign-un-page-benefits-row1,
+  .sign-un-page-benefits-row2 {
+    margin-bottom: 3rem;
+  }
+
+  .sign-un-page-benefits-row1 img {
+    border-radius: 31.25rem 31.25rem 0 0;
+  }
+
+  .sign-un-page-benefits-row1 img,
+  .sign-un-page-benefits-row2 img {
+    width: 45%;
+    height: 25.188rem;
+  }
+
+  .sign-un-page-benefits-row2 img {
+    border-radius: 0 0 31.25rem 31.25rem;
+  }
+
+  .sign-un-page-benefits-row1-info,
+  .sign-un-page-benefits-row2-info {
+    width: 35%;
+  }
+
+  .sign-un-page-benefits-row1-info h1,
+  .sign-un-page-benefits-row2-info h1 {
+    font-size: 3.125rem;
+    line-height: 3.875rem;
+    letter-spacing: -0.031rem;
+    margin-bottom: 4rem;
+  }
+
+  .sign-un-page-benefits-row2-info ul {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    letter-spacing: 0.022rem;
+  }
+}
